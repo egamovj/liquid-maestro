@@ -1,0 +1,40 @@
+.menu {
+    background: #181818;
+}
+
+.cocktailMenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 70px 181px;
+}
+
+.menuText {
+    text-align: center;
+    padding-top: 50px;
+    color: #D16868;
+}
+
+.cocktails {
+    display: flex;
+    column-gap: 10px;
+    max-width: 544px;
+}
+
+.description {
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.description .title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.description div {
+    color: #fff;
+}

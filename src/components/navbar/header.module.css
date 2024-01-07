@@ -1,0 +1,48 @@
+.header {
+    background-image: url('../../assets/images/header-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 34px 65px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 167px 250px 120px 250px;
+}
+
+.hero span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 102px;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Noto Serif', serif;
+}
+
+.hero button {
+    padding: 10px 48px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: block;
+    max-width: 177px;
+    margin-top: 80px;
+}
